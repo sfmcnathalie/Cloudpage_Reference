@@ -1,3 +1,4 @@
+/* simple page to redirect traffic based on a parameter in the URL*/
 %%[
 var @id
 set @id = RequestParameter("ID")
@@ -8,6 +9,8 @@ if empty(@id) then ]%%
 <meta http-equiv="refresh" content="0; URL='https://www.yahoo.com'">
 %%[endif
 ]%%
+
+
   
   
   
