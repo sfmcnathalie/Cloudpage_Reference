@@ -1,0 +1,13 @@
+%%[
+var @id
+set @id = RequestParameter("ID")
+if empty(@id) then ]%%
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/'">
+%%[ else
+]%%
+<meta http-equiv="refresh" content="0; URL='https://www.yahoo.com'">
+%%[endif
+]%%
+  
+  
+  
